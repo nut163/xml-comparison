@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>XML Comparison Tool</title>
+    <title>XML Comparator</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <h1>XML Comparison Tool</h1>
-    <input type="file" id="xmlFile1" accept=".xml">
-    <input type="file" id="xmlFile2" accept=".xml">
-    <button id="compareButton">Compare</button>
+    <h1>XML Comparator</h1>
+    <input type="file" id="file1" accept=".xml">
+    <input type="file" id="file2" accept=".xml">
+    <button onclick="compareXML()">Compare</button>
     <div id="result"></div>
-
-    <script src="scripts/xmlParser.js"></script>
-    <script src="scripts/compareXML.js"></script>
-    <script src="scripts/main.js"></script>
+    <script src="xmlParser.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
