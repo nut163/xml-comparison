@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#xmlFile1, #xmlFile2 {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#compareButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#result {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    height: 300px;
+    overflow: auto;
+}
+
+.difference {
+    color: red;
+}
